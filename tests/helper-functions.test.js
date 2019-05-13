@@ -2,6 +2,12 @@ const chai = require('chai');
 const jsdom = require('jsdom-global');
 
 global.document = jsdom();
+/* included commented out for reference on how to add jquery since it was a pita to figure out originally
+global.$ = require('jquery');
+global.jQuery = require('jquery');
+global.validation = require('jquery-validation');
+
+*/
 
 const helperFunctions = require('../js/helper-functions');
 
