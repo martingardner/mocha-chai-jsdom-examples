@@ -1,0 +1,26 @@
+{
+  "name": "mocha-chai-jsdom-examples",
+  "version": "1.0.0",
+  "description": "purified mocha / chai / jsdom examples that I have used for work projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "clear && mocha **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martingardner/mocha-chai-jsdom-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martingardner/mocha-chai-jsdom-examples/issues"
+  },
+  "homepage": "https://github.com/martingardner/mocha-chai-jsdom-examples#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-dom": "^1.8.1",
+    "jsdom": "^15.1.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^6.1.4"
+  }
+}
